@@ -12,7 +12,7 @@
 
 ### Prerequisites
 
-- **.NET SDK** (8.0 or higher) - Download from [here](https://dotnet.microsoft.com/download).
+- **.NET SDK** (10.0 or higher) - Download from [here](https://dotnet.microsoft.com/download).
 - **ML.NET** (v2.0 or higher) - For more information on ML.NET, check the [official documentation](https://docs.microsoft.com/en-us/dotnet/machine-learning/).
 
 ### Setup
