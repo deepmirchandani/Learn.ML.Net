@@ -1,4 +1,4 @@
-﻿using MLSampleApp_Console;
+using MLSampleApp_Console;
 using static System.Formats.Asn1.AsnWriter;
 
 // Prompt user for input values
@@ -27,7 +27,6 @@ foreach (var score in scoresWithLabel)
     Console.WriteLine($"{score.Key,-40}{score.Value,-20}");
 }
 Console.WriteLine($"{"-----",-40}{"-----",-20}");
-
 
 var modelOutput = PredictiveModel.Predict(modelInput);
 Console.WriteLine($"Single Prediction Result");
