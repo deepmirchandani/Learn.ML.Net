@@ -32,7 +32,6 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-
 // Define prediction route & handler
 app.MapPost("/predict",
     async (PredictionEnginePool<PredictiveModel.ModelInput, PredictiveModel.ModelOutput> predictionEnginePool, PredictiveModel.ModelInput input) =>
